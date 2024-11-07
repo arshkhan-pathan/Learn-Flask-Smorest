@@ -33,3 +33,6 @@ def create_app(db_url=None):
     api.register_blueprint(TagBlueprint)
 
     return app
+
+
+# TO RUN - flask run
